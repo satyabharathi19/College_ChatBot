@@ -11,7 +11,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Load CSV file securely
-csv_url = "svecw_details.csv"
+csv_url = "svcew_details.csv"
 try:
     df = pd.read_csv(csv_url)
 except Exception as e:
